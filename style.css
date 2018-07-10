@@ -124,7 +124,6 @@ header {
 .Portfolio-box:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
 }
-　
 .Feature{
   width: 100%;
 }
@@ -170,7 +169,7 @@ header {
 }
 .Strength1-ms{
   font-size: 20px;
-  padding: 10px auto;
+  margin: 10px auto;
   color: #000000;
 }
 .Strength1-ms2{
@@ -190,7 +189,7 @@ header {
 }
 .Strength2-ms{
   font-size: 20px;
-  padding: 10px auto;
+  margin: 10px auto;
   color: #000000;
 }
 .Strength2-ms2{
@@ -210,7 +209,7 @@ header {
 }
 .Strength3-ms{
   font-size: 20px;
-  padding: 10px auto;
+  margin: 10px auto;
   color: #000000;
 }
 .Strength3-ms2{
@@ -375,10 +374,10 @@ footer {
   font-size: 16px;
   color: #FAFAFA;
 }
-
+/*   ーーー　　　レスポンシブ　　　ーーー　　　*/
 @media screen and (max-width:768px) {
   body{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   header {
@@ -413,13 +412,16 @@ footer {
     background-size: cover;
     background-position: center;
   }
-  .main-visual-text-ms{
+  /*.main-visual-text-ms{
     font-size: 18px;
     color: #FAFAFA;
-  }
-  .main-visual-text{
+  }*/
+  /*.main-visual-text{
     font-size: 64px;
     padding-top: 40px;
+  }*/
+  .main-visual-text h1{
+  font-size: 49px;
   }
   .main-visual-text-ms{
   font-size: 18px;
@@ -466,6 +468,7 @@ footer {
   }
   .Strength{
     width: 100%;
+
   }
   .Strength-box{
   width: 320px;
@@ -474,7 +477,7 @@ footer {
   width: 320px;
   height: auto;
   text-align: center;
-  margin: 0 10px 90px 0;
+  margin: 0  0 10px 0;
   }
   .Strength1-ms2{
   text-align: left;
@@ -483,7 +486,7 @@ footer {
   width: 320px;
   height: auto;
   text-align: center;
-  margin: 0 10px 90px 0;
+  margin: 0  0 10px 0;
   }
   .Strength2-ms2{
   text-align: left;
@@ -537,33 +540,43 @@ footer {
   .contact-text{
     margin: 0 auto;
     width: 100%;
+    float: none;
+
   }
+
 /*  .contact-bottom-box{
     width: 70%;
     margin:0 auto;
   }*/
+
+  .contact-phone{
+    width: 100%;
+  }
   .contact-box2{
     width: 130px;
     text-align: center;
     margin: 0 auto;
 　}
-.icon-box{
-  margin: auto;
-  float: none;
+  .icon-box{
+    width: 100%;
+  /*margin: 0 auto;*/
+    float: none;
   }
   .icon{
     width: 200px;
-    margin: auto;
-    text-align: center;
-  }
-   .sns-txet{
+    margin: 0 auto;
     /*margin: 0 auto;*/
     text-align: center;
- }
-  .contact-phone{
-    width: 100%;
-    margin: 0 auto;
   }
+  .sns-text{
+    padding: 20px 0 5px 0;
+    text-align: center;
+  }
+
+ .main-1-text, .Feature-top-text, .profile-ms-b, .myname-b, .contact-ms-b {
+  width: 90%;
+  margin: 0 auto;
+ }
 
 
 
